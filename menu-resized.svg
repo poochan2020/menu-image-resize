@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2500" height="843" viewBox="0 0 2500 843" fill="none">
+  <!-- 背景 -->
+  <rect width="2500" height="843" fill="#FFEB3B"/>
+  
+  <!-- MENU テキスト -->
+  <g transform="translate(500, 150) scale(2.5)">
+    <!-- M -->
+    <path d="M100 50 Q100 30, 120 30 L150 30 Q170 30, 170 50 L170 150 Q170 170, 150 170 L120 170 Q100 170, 100 150 Z" fill="#FF5252" stroke="white" stroke-width="6"/>
+    <!-- E -->
+    <path d="M190 50 Q190 30, 210 30 L290 30 Q310 30, 310 50 L310 60 Q310 80, 290 80 L210 80 Q200 80, 200 90 L200 110 Q200 120, 210 120 L290 120 Q310 120, 310 140 L310 150 Q310 170, 290 170 L210 170 Q190 170, 190 150 Z" fill="#FFEB3B" stroke="white" stroke-width="6"/>
+    <!-- N -->
+    <path d="M330 50 Q330 30, 350 30 L380 30 Q400 30, 400 50 L400 150 Q400 170, 380 170 L350 170 Q330 170, 330 150 Z" fill="#03A9F4" stroke="white" stroke-width="6"/>
+    <!-- U -->
+    <path d="M420 50 Q420 30, 440 30 L470 30 Q490 30, 490 50 L490 150 Q490 170, 470 170 L440 170 Q420 170, 420 150 Z" fill="#4CAF50" stroke="white" stroke-width="6"/>
+  </g>
+  
+  <!-- 星のデコレーション -->
+  <path d="M400 150 L420 190 L380 190 Z" fill="#03A9F4" transform="rotate(180 400 170)"/>
+  <path d="M2100 150 L2120 190 L2080 190 Z" fill="#FFC107" transform="rotate(180 2100 170)"/>
+  <path d="M400 650 L420 690 L380 690 Z" fill="#03A9F4" transform="rotate(0 400 670)"/>
+  <path d="M2100 650 L2120 690 L2080 690 Z" fill="#FFC107" transform="rotate(0 2100 670)"/>
+  
+  <!-- ボタン -->
+  <!-- 登録 -->
+  <g transform="translate(500, 400)">
+    <rect x="0" y="0" width="550" height="150" rx="40" fill="#FF7A90" stroke="white" stroke-width="5"/>
+    <text x="275" y="95" font-family="Arial" font-size="80" fill="white" text-anchor="middle">登録</text>
+  </g>
+  
+  <!-- 削除 -->
+  <g transform="translate(1450, 400)">
+    <rect x="0" y="0" width="550" height="150" rx="40" fill="#FFA726" stroke="white" stroke-width="5"/>
+    <text x="275" y="95" font-family="Arial" font-size="80" fill="white" text-anchor="middle">削除</text>
+  </g>
+  
+  <!-- 修正 -->
+  <g transform="translate(500, 600)">
+    <rect x="0" y="0" width="550" height="150" rx="40" fill="#29B6F6" stroke="white" stroke-width="5"/>
+    <text x="275" y="95" font-family="Arial" font-size="80" fill="white" text-anchor="middle">修正</text>
+  </g>
+  
+  <!-- 確認 -->
+  <g transform="translate(1450, 600)">
+    <rect x="0" y="0" width="550" height="150" rx="40" fill="#66BB6A" stroke="white" stroke-width="5"/>
+    <text x="275" y="95" font-family="Arial" font-size="80" fill="white" text-anchor="middle">確認</text>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>リサイズされたメニュー画像</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 100%;
+            overflow: auto;
+        }
+        .image-container {
+            width: 100%;
+            max-width: 2500px;
+            margin: 0 auto;
+        }
+        img, svg {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <h2>SVGバージョン (2500x843)</h2>
+            <img src="menu-resized.svg" alt="リサイズされたメニュー画像 (SVG)">
+            
+            <h2>元の比率情報</h2>
+            <p>元の画像の比率を保ちながら、2500x843のサイズにリサイズしました。</p>
+        </div>
+    </div>
+</body>
+</html>
